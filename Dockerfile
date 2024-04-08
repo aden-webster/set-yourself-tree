@@ -4,6 +4,7 @@ LABEL MAINTAINER="aden@a-webster.com"
 COPY . /app
 WORKDIR /app
 ADD requirements.txt /app
-RUN pip install -r /app/requirements.txt
+
+RUN pip install --no-cache-dir  -r /app/requirements.txt
 
 CMD [ "python", "./tree.py" ]

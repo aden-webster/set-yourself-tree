@@ -19,4 +19,6 @@ I set this up as a docker image which basically just runs a simple Python script
 
 Script for unRAID or other NAS that runs "Tree" command to get a text list of your files. Call it a poor mans mirror. 
 
-
+## TO DO:
+ENV Variables for docker run/compose to enter volumes
+Gsuite/Cloud integration
